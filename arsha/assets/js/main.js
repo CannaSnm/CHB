@@ -256,3 +256,23 @@
   });
 
 })()
+/*
+$('#BotonCompra').click(armarMensaje)//buscamos el ID botonCompra, al cliquear ejecuta la funcion armar mensaje
+function armarMensaje (){
+    var mensaje= ""
+    var total= 0
+    
+        }
+    
+    
+    
+  
+    
+
+mensaje="¡Hola CHB! queria consultar "+mensaje+" $ "+" soy "+$('#cliente')[0].value+" "+$('#comentario')[0].value;
+
+$("#mensaje").prop('innerText',mensaje)
+$("#wasap").prop('href', "https://api.whatsapp.com/send?phone=5492216797230&text=" + mensaje)
+  
+ $('#cliente').change((evento)=>armarMensaje())
+ $('#comentario').change((evento)=>armarMensaje())*/
